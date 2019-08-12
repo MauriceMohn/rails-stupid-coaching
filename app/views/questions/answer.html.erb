@@ -1,0 +1,11 @@
+<!-- displays question asked as well as the answer-->
+
+<h1>Stupid Coaching</h1>
+<div class="answers_container">
+ <p><span>Your question: <%=@question%></span></p>
+</div>
+<div class="answers_container">
+
+ <p><span>Your coach answers: <%=@answer%></span></p>
+</div>
+<p><%= link_to 'Ask a new question', ask_path %></p>
